@@ -1,3 +1,6 @@
-psycopg2
-ipython-sql
-pandas
+psycopg2===2.8.5
+ipython-sql===0.4.0
+pandas===1.0.4
+flake8===3.7.9
+black==19.10b0
+isort==4.3.21

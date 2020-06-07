@@ -1,8 +1,12 @@
-import os
 import glob
-import psycopg2
+import os
+
 import pandas as pd
-from sql_queries import *
+import psycopg2
+
+from sql_queries import (artist_table_insert, song_select, song_table_insert,
+                         songplay_table_insert, time_table_insert,
+                         user_table_insert)
 
 
 def process_song_file(cur, filepath):
