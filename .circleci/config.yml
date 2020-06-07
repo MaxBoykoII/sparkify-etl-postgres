@@ -1,7 +1,7 @@
 version: 2
 
 jobs:
-  build:etl:
+  build:
     docker:
       - image: python:3.7.3-stretch
 
